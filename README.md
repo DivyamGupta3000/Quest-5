@@ -38,4 +38,4 @@ You can quit by typing `ctrl + C` (Mac) or `cmd + C` (Windows).
 - adding optional personalities.
 - colorizing the chatbot output.
 
-Based on [Mastering OpenAI Python APIs: Unleash the Power of GPT4](https://www.udemy.com/course/mastering-openai/) by Colt Steele (2023).
+

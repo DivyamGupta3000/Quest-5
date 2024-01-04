@@ -1,8 +1,6 @@
-# Quest-5
+# GPT-4 Chatbot
 
-# Q&A Bot
-
-A dynamic Q&A Bot using GPT-4.
+A simple command line chatbot with GPT-4.
 
 <p align="center">
     <img src="screenshot.png">
@@ -16,16 +14,28 @@ Follow these steps: [How to Work with Python Virtual Environments, Jupyter Noteb
 
 You need to create a `.env` file with your `OPENAI_API_KEY`.
 
-# Usage
+## Usage
 
-Open `F1_QA_Assistant.ipynb`.
+To run the CLI:
+
+```
+cd 02-gpt-4-chatbot
+python3 chatbot.py
+```
+
+You can define the personality of your chatbot, it is friendly and helpful by default:
+
+```
+python3 chatbot.py --personality "funny"
+```
+
+You can quit by typing `ctrl + C` (Mac) or `cmd + C` (Windows).
 
 ## Features
 
-- scraping data from Wikipedia.
-- generating a bunch of embeddings on the last Formula One season.
-- turning the questions from users into embeddings.
-- finding the K nearest neighbors to that embedding.
-- including the matching texts in the prompt to expand GPT-4 knowledge.
+- writing the basic chatbot structure.
+- persisting messages accross requests.
+- adding optional personalities.
+- colorizing the chatbot output.
 
-Based on [Mastering OpenAI Python APIs: Unleash the Power of GPT4](2023).
+Based on [Mastering OpenAI Python APIs: Unleash the Power of GPT4](https://www.udemy.com/course/mastering-openai/) by Colt Steele (2023).

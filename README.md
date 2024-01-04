@@ -3,7 +3,12 @@
 A simple command line chatbot with GPT-4.
 
 
-## Setup<img width="822" alt="screenshot" src="https://github.com/DivyamGupta3000/Quest-5/assets/108221297/05cfe068-4f21-4048-bc80-92c38b806c50">
+<img width="822" alt="screenshot" src="https://github.com/DivyamGupta3000/Quest-5/assets/108221297/a7adf4a5-da75-457c-8a69-6dbe1d3dff1a">
+
+
+
+
+
 
 
 You need to create a virtual env and install the packages listed in `requirements.txt`. You can then run Jupyter Notebooks in VS Code.
